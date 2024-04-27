@@ -1,0 +1,110 @@
+.sale-container {
+
+    display: flex;
+    flex-direction: column;
+    height: 320px;
+    align-items: center;
+}
+
+.sale-container button {
+    border: 0;
+    padding: 32px;
+    background-color: #0a0a0a;
+    border-radius: 4px;
+    color: #ffffff;
+    font-size: 18px;
+}
+
+.sale-container-item {
+    display: flex;
+    border: 1px solid #f0f2fd;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 32px;
+}
+
+.sale-container-item-code {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 32px;
+}
+
+.sale-container-item-code .error-promo-code {
+    font-size: 1.2em;
+    text-align: center;
+    display: none;
+}
+
+.sale-container-item-code-count {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.sale-container-item-code-count #js-sale-code {
+    font-size: 12em;
+    font-weight: 600;
+    line-height: 1;
+}
+
+.sale-container-item-code-count span:last-child {
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.sale-container-item-form {
+    width: 100%;
+    max-width: 420px;
+    background-color: #f0f2fd;
+    height: 100%;
+}
+
+.sale-container-item-form form {
+    display: flex;
+    flex-direction: column;
+    padding: 32px;
+    align-items: center;
+    height: 100%;
+    justify-content: center;
+}
+
+.sale-container-item-form .input-sale-code {
+    height: 64px;
+    outline: none;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    padding: 0 24px;
+    color: #343a40;
+    font-size: 24px;
+    text-align: center;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 12px;
+}
+
+.sale-container-item-form .input-sale-code::placeholder {
+    font-size: 16px;
+    font-weight: normal;
+    text-transform: none;
+}
+
+.sale-container-item-form .input-sale-btn {
+    background-color: #ff2463;
+    border: 0;
+    padding: 12px;
+    border-radius: 4px;
+    font-size: 16px;
+    color: #ffffff;
+}
+
+.sale-container .containerHide {
+    display: none;
+}
+
+.sale-container .containerShow {
+    display: flex;
+}
